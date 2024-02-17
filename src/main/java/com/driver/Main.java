@@ -1,7 +1,7 @@
 package com.driver;
 
 public class Main {
-    public class Boat implements WaterVehicle{
+    public static class Boat implements WaterVehicle{
         String name="";
         int capacity=0;
         @Override
